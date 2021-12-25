@@ -12,6 +12,7 @@ public class Client {
 			InetAddress localAddress = InetAddress.getLocalHost();
 			
 //			localAddress
+//			localhost
 //s			"192.168.0.33"
 //h			"192.168.0.19"
 			try (Socket cSocket = new Socket("localhost", 10000);) { 
